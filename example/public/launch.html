@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FHIR App Starter Launch</title>
+    <script src="https://cdn.jsdelivr.net/npm/fhirclient/build/fhir-client.min.js"></script>
+  </head>
+
+  <body>
+    <script>
+      clientId = "your-client-id-here";
+      scope = "scopes";
+      redirectUri = "http://localhost:3000/";
+      FHIR.oauth2.authorize({
+        clientId: clientId,
+        scope: scope,
+        redirectUri: redirectUri,
+      });
+    </script>
+  </body>
+</html>

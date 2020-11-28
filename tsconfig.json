@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "target": "es5",
+    "declaration": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "lib" : [
+      "ES2015",
+      "DOM"
+    ]
+  },
+  "include": ["src"],
+}

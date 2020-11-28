@@ -1,0 +1,24 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["typescript", "import"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "typescript",
+    "typescript/prettier",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/no-unresolved": "error",
+    "import/extensions": "off",
+    "require-jsdoc": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
+    "no-use-before-define": [0],
+    "@typescript-eslint/no-use-before-define": [1]
+  }
+}
