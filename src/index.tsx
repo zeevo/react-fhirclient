@@ -15,8 +15,6 @@ function FhirClientProvider(props: Props): React.ReactNode {
     const connect = async () => {
       try {
         FHIR.oauth2.ready().then((client: any) => {
-          console.log('connecting');
-          console.log('connecting');
           setClient(client);
         });
       } catch (e) {
@@ -34,6 +32,7 @@ function useFhirClient(): any {
   const context = React.useContext(FhirClientStateContext);
   return context;
 }
+
 export { FhirClientProvider, useFhirClient };
 
 export default { FhirClientProvider, useFhirClient };
