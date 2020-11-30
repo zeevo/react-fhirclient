@@ -51,4 +51,4 @@ export default App;
 
 3. Learn `fhirclient`.
 
-This project uses [fhirclient](https://github.com/smart-on-fhir/client-js) under the hood. Check out it's [documentation](http://docs.smarthealthit.org/client-js/).
+This project uses [fhirclient](https://github.com/smart-on-fhir/client-js) under the hood. Check out its [documentation](http://docs.smarthealthit.org/client-js/).
