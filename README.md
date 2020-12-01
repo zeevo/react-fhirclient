@@ -4,7 +4,19 @@
 
 ## Getting started
 
-1. Add your `FhirClientProvider` to your ReactDOM tree.
+1. Install it using NPM or Yarn
+
+```
+npm i react-fhirclient
+```
+
+or:
+
+```
+yarn add react-fhirclient
+```
+
+2. Add your `FhirClientProvider` to your ReactDOM tree.
 
 ```js
 ReactDOM.render(
@@ -17,7 +29,7 @@ ReactDOM.render(
 );
 ```
 
-2. Use `useFhirClient()` in your hooks.
+3. Use `useFhirClient()` in your hooks.
 
 ```js
 import { useState, useEffect } from 'react';
@@ -49,6 +61,6 @@ function App() {
 export default App;
 ```
 
-3. Learn `fhirclient`.
+4. Learn `fhirclient`.
 
 This project uses [fhirclient](https://github.com/smart-on-fhir/client-js) under the hood. Check out its [documentation](http://docs.smarthealthit.org/client-js/).
